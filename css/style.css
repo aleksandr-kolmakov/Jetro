@@ -83,13 +83,13 @@ body{
 
 .slider__content{
     position: absolute;
-    width: 412px;
-    height: 125px;
+    max-width: 412px;
+
     background-color: rgba(191, 93, 53, .8);
-    padding-top: 23px;
-    padding-left: 18px;
-    margin-top: 245px;
-    margin-left: 35px;
+    padding: 15px 18px;
+
+    bottom: 35px;
+    left: 35px;
 }
 
 .slider__content-title{
@@ -107,28 +107,33 @@ body{
     
 }
 
-.rtumb{
+.trumb{
     display: flex;
     justify-content: space-between;
     
 }
-.rtumb__item{ 
+
+.trumb__pic{
     width: 140px;
     height: 120px;
+    background-position: top center;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-
+    
 }
-
-.rtumb .slick-track{
+ 
+.trumb .slick-track{
     transform: translate3d(0px, 0px, 0px) !important;
-}
+}    
+    
+    
+    
+    
 
-.slick-slide .rtumb__item{
-    max-width: 140px;
-    margin-left: 20px;
-} 
+
+
+
+
 
 
 
