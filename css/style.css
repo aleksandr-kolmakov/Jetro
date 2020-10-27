@@ -108,31 +108,36 @@ body{
 }
 
 .trumb{
-    display: flex;
-    justify-content: space-between;
+    
+    
     
 }
 
-.trumb__pic{
+.trumb__item{
     width: 140px;
     height: 120px;
     background-position: top center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
- 
+
+
+/* ===================== trumb slider ==================================== */
+
 .trumb .slick-track{
-    transform: translate3d(0px, 0px, 0px) !important;
-}    
-    
-    
-    
+    transform: translate3d(0px, 0px, 0px)!important;
+}
     
 
 
+.trumb .slick-slide{
+    max-width: 140px;
+}
 
-
+.trumb .slick-track div + div{
+    margin-left: 20px;
+}
 
 
 
